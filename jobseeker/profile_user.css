@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: auto;
+    max-width: auto;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+  }
+  
+li {
+    float: left;
+  }
+  
+.nav-link{
+    display: block;
+    color: white;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+li a:hover {
+    background-color: #111;
+  }
+body{
+    background-color:lightgray;
+    opacity: 0.8;
+
+  }
+
+.bdy{
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}  
+.bdy h1,h2{
+  text-transform: uppercase;
+}
+.table .input{
+  width: 100%;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+.tabletitle{
+  background-color:#333;
+  align-items: center;
+  text-align: center;
+  color: #d5dbd9;
+}
+.bdy .welcome{
+  margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.btn1{
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 15px;
+  border: 0;
+  background:black;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
+}
+ .btn1:hover{
+  background: darkgrey;
+}
